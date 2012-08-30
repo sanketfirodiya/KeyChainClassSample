@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB20AAA915ED68A9001A3BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB20AAA815ED68A9001A3BEE /* UIKit.framework */; };
+		FB20AAAB15ED68A9001A3BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB20AAAA15ED68A9001A3BEE /* Foundation.framework */; };
+		FB20AAAD15ED68A9001A3BEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB20AAAC15ED68A9001A3BEE /* CoreGraphics.framework */; };
+		FB20AAB315ED68A9001A3BEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB20AAB115ED68A9001A3BEE /* InfoPlist.strings */; };
+		FB20AAB515ED68A9001A3BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20AAB415ED68A9001A3BEE /* main.m */; };
+		FB20AAB915ED68A9001A3BEE /* KeyChainClassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20AAB815ED68A9001A3BEE /* KeyChainClassAppDelegate.m */; };
+		FB20AABC15ED68A9001A3BEE /* KeyChainClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20AABB15ED68A9001A3BEE /* KeyChainClassViewController.m */; };
+		FB20AABF15ED68A9001A3BEE /* KeyChainClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB20AABD15ED68A9001A3BEE /* KeyChainClassViewController.xib */; };
+		FB20AAC815ED8C34001A3BEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB20AAC715ED8C33001A3BEE /* Security.framework */; };
+		FB20AACD15ED9524001A3BEE /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20AACC15ED9524001A3BEE /* SFHFKeychainUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB20AAA415ED68A9001A3BEE /* KeyChainClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB20AAA815ED68A9001A3BEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB20AAAA15ED68A9001A3BEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB20AAAC15ED68A9001A3BEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB20AAB015ED68A9001A3BEE /* KeyChainClass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyChainClass-Info.plist"; sourceTree = "<group>"; };
+		FB20AAB215ED68A9001A3BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB20AAB415ED68A9001A3BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB20AAB615ED68A9001A3BEE /* KeyChainClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyChainClass-Prefix.pch"; sourceTree = "<group>"; };
+		FB20AAB715ED68A9001A3BEE /* KeyChainClassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainClassAppDelegate.h; sourceTree = "<group>"; };
+		FB20AAB815ED68A9001A3BEE /* KeyChainClassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainClassAppDelegate.m; sourceTree = "<group>"; };
+		FB20AABA15ED68A9001A3BEE /* KeyChainClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainClassViewController.h; sourceTree = "<group>"; };
+		FB20AABB15ED68A9001A3BEE /* KeyChainClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainClassViewController.m; sourceTree = "<group>"; };
+		FB20AABE15ED68A9001A3BEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyChainClassViewController.xib; sourceTree = "<group>"; };
+		FB20AAC715ED8C33001A3BEE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB20AACB15ED9524001A3BEE /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		FB20AACC15ED9524001A3BEE /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB20AAA115ED68A9001A3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB20AAC815ED8C34001A3BEE /* Security.framework in Frameworks */,
+				FB20AAA915ED68A9001A3BEE /* UIKit.framework in Frameworks */,
+				FB20AAAB15ED68A9001A3BEE /* Foundation.framework in Frameworks */,
+				FB20AAAD15ED68A9001A3BEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB20AA9915ED68A8001A3BEE = {
+			isa = PBXGroup;
+			children = (
+				FB20AAAE15ED68A9001A3BEE /* KeyChainClass */,
+				FB20AAA715ED68A9001A3BEE /* Frameworks */,
+				FB20AAA515ED68A9001A3BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB20AAA515ED68A9001A3BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB20AAA415ED68A9001A3BEE /* KeyChainClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB20AAA715ED68A9001A3BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB20AAC715ED8C33001A3BEE /* Security.framework */,
+				FB20AAA815ED68A9001A3BEE /* UIKit.framework */,
+				FB20AAAA15ED68A9001A3BEE /* Foundation.framework */,
+				FB20AAAC15ED68A9001A3BEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB20AAAE15ED68A9001A3BEE /* KeyChainClass */ = {
+			isa = PBXGroup;
+			children = (
+				FB20AAB715ED68A9001A3BEE /* KeyChainClassAppDelegate.h */,
+				FB20AAB815ED68A9001A3BEE /* KeyChainClassAppDelegate.m */,
+				FB20AABA15ED68A9001A3BEE /* KeyChainClassViewController.h */,
+				FB20AABB15ED68A9001A3BEE /* KeyChainClassViewController.m */,
+				FB20AABD15ED68A9001A3BEE /* KeyChainClassViewController.xib */,
+				FB20AACB15ED9524001A3BEE /* SFHFKeychainUtils.h */,
+				FB20AACC15ED9524001A3BEE /* SFHFKeychainUtils.m */,
+				FB20AAAF15ED68A9001A3BEE /* Supporting Files */,
+			);
+			path = KeyChainClass;
+			sourceTree = "<group>";
+		};
+		FB20AAAF15ED68A9001A3BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB20AAB015ED68A9001A3BEE /* KeyChainClass-Info.plist */,
+				FB20AAB115ED68A9001A3BEE /* InfoPlist.strings */,
+				FB20AAB415ED68A9001A3BEE /* main.m */,
+				FB20AAB615ED68A9001A3BEE /* KeyChainClass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB20AAA315ED68A9001A3BEE /* KeyChainClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB20AAC215ED68A9001A3BEE /* Build configuration list for PBXNativeTarget "KeyChainClass" */;
+			buildPhases = (
+				FB20AAA015ED68A9001A3BEE /* Sources */,
+				FB20AAA115ED68A9001A3BEE /* Frameworks */,
+				FB20AAA215ED68A9001A3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChainClass;
+			productName = KeyChainClass;
+			productReference = FB20AAA415ED68A9001A3BEE /* KeyChainClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB20AA9B15ED68A8001A3BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KeyChainClass;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FB20AA9E15ED68A8001A3BEE /* Build configuration list for PBXProject "KeyChainClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB20AA9915ED68A8001A3BEE;
+			productRefGroup = FB20AAA515ED68A9001A3BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB20AAA315ED68A9001A3BEE /* KeyChainClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB20AAA215ED68A9001A3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB20AAB315ED68A9001A3BEE /* InfoPlist.strings in Resources */,
+				FB20AABF15ED68A9001A3BEE /* KeyChainClassViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB20AAA015ED68A9001A3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB20AAB515ED68A9001A3BEE /* main.m in Sources */,
+				FB20AAB915ED68A9001A3BEE /* KeyChainClassAppDelegate.m in Sources */,
+				FB20AABC15ED68A9001A3BEE /* KeyChainClassViewController.m in Sources */,
+				FB20AACD15ED9524001A3BEE /* SFHFKeychainUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB20AAB115ED68A9001A3BEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB20AAB215ED68A9001A3BEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB20AABD15ED68A9001A3BEE /* KeyChainClassViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB20AABE15ED68A9001A3BEE /* en */,
+			);
+			name = KeyChainClassViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB20AAC015ED68A9001A3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB20AAC115ED68A9001A3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB20AAC315ED68A9001A3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyChainClass/KeyChainClass-Prefix.pch";
+				INFOPLIST_FILE = "KeyChainClass/KeyChainClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB20AAC415ED68A9001A3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyChainClass/KeyChainClass-Prefix.pch";
+				INFOPLIST_FILE = "KeyChainClass/KeyChainClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB20AA9E15ED68A8001A3BEE /* Build configuration list for PBXProject "KeyChainClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB20AAC015ED68A9001A3BEE /* Debug */,
+				FB20AAC115ED68A9001A3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB20AAC215ED68A9001A3BEE /* Build configuration list for PBXNativeTarget "KeyChainClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB20AAC315ED68A9001A3BEE /* Debug */,
+				FB20AAC415ED68A9001A3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB20AA9B15ED68A8001A3BEE /* Project object */;
+}
